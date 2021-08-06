@@ -44,3 +44,7 @@ Summary
 -   Saving migration to chain.
 -   Blocks: 0 Seconds: 0
 -   Saving migration to chain.
+
+### 4. Setup frontend with NextJS
+
+-   Create smart contract instance
