@@ -23,6 +23,12 @@
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+
+const fs = require("fs");
+const mnemonic =
+    "soda ride finger all genre author slim under hurdle trust hill clerk"; //fs.readFileSync(".secret").toString().trim();
+
 module.exports = {
     contracts_build_directory: "./client/ethereum/contracts",
     /**
@@ -71,6 +77,14 @@ module.exports = {
         // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
         // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
         // },
+        rinkeby_test: {
+            provider: () =>
+                new HDWalletProvider(
+                    mnemonic,
+                    `https://rinkeby.infura.io/v3/846eb1b6c27f4e4ea49f0b9b808a2541`
+                ),
+            network_id: 4, // Rinkeby's id
+        },
         // Useful for private networks
         // private: {
         // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),

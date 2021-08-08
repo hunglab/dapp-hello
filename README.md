@@ -48,3 +48,4 @@ Summary
 ### 4. Setup frontend with NextJS
 
 -   Create smart contract instance
+-   Use: npm create-next-app
