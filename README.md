@@ -1,6 +1,6 @@
 # dapp-helloworld
 
-# First Decentralized Application
+# One Decentralized Application
 
 ## Development Stacks:
 
