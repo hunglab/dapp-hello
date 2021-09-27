@@ -12,8 +12,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -26,8 +25,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.1+commit.df193b15\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getString\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"str\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Hello.sol\":\"Helloworld\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Hello.sol\":{\"keccak256\":\"0x506dff21299c675670563e4eeffe8a5c335210e89a1a07b95047aa22bcef56ce\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ffd6593c6f8b2fc3727360047e799935a3ce4334ac8a0531171bf7fc35d68c91\",\"dweb:/ipfs/Qmc5aeufq2mch9ntw8NR3HiDYAAfJiJbRByB3Z3uRES4Db\"]}},\"version\":1}",
@@ -1891,8 +1889,7 @@
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-07T05:23:59.963Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-08-10T17:32:31.185Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
